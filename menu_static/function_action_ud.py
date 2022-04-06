@@ -17,16 +17,16 @@ def key_pressure(key):
         global menu_select_options
         os.system("cls")
 
-        if key == keyboard.Key.right:
+        if key == keyboard.Key.up:
             menu_index_option += 1
                 
-        elif key == keyboard.Key.left:
+        elif key == keyboard.Key.down:
             menu_index_option -= 1
         
         elif key == keyboard.Key.enter:
+            
             importing = menu_select_options[menu_index_option][1]
             command = menu_select_options[menu_index_option][2]
-
             with open("command.py","w") as importing:
                 writer.write(importing + "\n")
             with open("command.py","a") as append:
@@ -39,11 +39,11 @@ def key_pressure(key):
             # Exit the program
         
         #   
-        print(f"Y88-888-888-888-888-888-888-888-888-88Y\n\n\t<<< {menu_select_options[menu_index_option][0]} >>>\n\nY88-888-888-888-888-888-888-888-888-88Y")
+        print(f"Y88-888-888-888-888-888-888-888-888-88Y\n\t\t     ↑\n\n\t\t {menu_select_options[menu_index_option][0]}\n\n\t\t     ↓\nY88-888-888-888-888-888-888-888-888-88Y")
         
     except:
         menu_index_option = 0
-        print(f"Y88-888-888-888-888-888-888-888-888-88Y\n\n\t<<< Value out of range >>>\n\nY88-888-888-888-888-888-888-888-888-88Y")
+        print(f"Y88-888-888-888-888-888-888-888-888-88Y\n\n\t Value out of range \n\nY88-888-888-888-888-888-888-888-888-88Y")
 
 # Key listener
 if __name__ == "__main__":

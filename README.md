@@ -39,6 +39,22 @@ IC is an interactive console in which you can execute commands and move around t
 * Bash 
 * Powershell
 
+## IC Modes
+
+### Menu Dynamic RL, UD
+![menu](https://media.discordapp.net/attachments/901591362250637342/960708177916219443/unknown.png)
+* No function extraction
+
+### Menu Static
+![menu](https://media.discordapp.net/attachments/901591362250637342/960708803249176576/unknown.png)
+* No color
+* No preview
+
+### Class menu
+![menu](https://media.discordapp.net/attachments/901591362250637342/960709874575093760/unknown.png)
+* Using OOP you create your own menus with your own options, LIBRARY SOON...
+
+
 ## You can
 
 * Create a command run
