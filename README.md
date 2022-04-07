@@ -51,7 +51,7 @@ POOMenu Library focused on the creation of graphical interfaces in the terminal
   
 ## 🛠 Downloading repo, installing requirements and cd path:
 ```console
-git clone https://github.com/M20191/POOMenu && pip install -r requirements.txt && cd POOMenu/
+git clone https://github.com/M20191/POOMenu && cd POOMenu/ && pip install -r requirements.txt
 ```
    
 ## 🖥 How to run Linux/Windows:
