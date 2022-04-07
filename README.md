@@ -1,14 +1,14 @@
 ```ruby
-                                            .d8888b. 8888888 
-					   d88P  Y88b  888   
-					   888    888  888   
-					   888         888   
-					   888         888   
-					   888    888  888   
-					   Y88b  d88P  888   
-					    "Y8888P" 8888888 
-                   
-                                          Interactive Console
+                                           
+				       8888888b.  888b     d888 
+				       888   Y88b 8888b   d8888 
+				       888    888 88888b.d88888 
+				       888   d88P 888Y88888P888 
+				       8888888P"  888 Y888P 888 
+				       888        888  Y8P  888 
+				       888        888   "   888 
+				       888        888       888
+                                          	POOMenu
                                              Python Edition
 				          Full console support
 ```
@@ -26,76 +26,43 @@
 <p align="center">
 	<a href="#"><img title="license" src="https://img.shields.io/github/license/M20191/MSD-X?style=flat-square&logo=sublime-text"></a>
 </p>
-
 	
-## What is IC?
+---
 	
-IC is an interactive console in which you can execute commands and move around the console using your keyboard, with right, left and enter to select an option you can execute commands in a visual and pleasant way, with various control methods (up down, left right )
+POOMenu Library focused on the creation of graphical interfaces in the terminal
 	
 	
-## Commands consoles support
+## 📡 Consoles support
 
 * CMD
-* Bash 
 * Powershell
-
-## IC Modes
-
-### Menu Dynamic RL, UD
-![menu](https://media.discordapp.net/attachments/901591362250637342/960708177916219443/unknown.png)
-* No function extraction
-
-### Menu Static
-![menu](https://media.discordapp.net/attachments/901591362250637342/960708803249176576/unknown.png)
-* No color
-* No preview
-
-### Class menu
-![menu](https://media.discordapp.net/attachments/901591362250637342/960709874575093760/unknown.png)
-* Using OOP you create your own menus with your own options, LIBRARY SOON...
+* Bash 
+* MacOS	
 
 
-## You can
+## ☀ Features
 
 * Create a command run
 * Customize, add, remove terminal commands
 * Extract and run commands from other python files
 * Customize interface
+* Create external categories and run them from the main file (BETA)
 	
----
   
-## ¿How to use?
-
-### Download python
-
-#### Linux/Bash	
-```bash
-sudo apt-get python3
+## 🛠 Downloading repo, installing requirements and cd path:
+```console
+git clone https://github.com/M20191/POOMenu && pip install -r requirements.txt && cd POOMenu/
 ```
-  
-```bash
-sudo apt install python3
+   
+## 🖥 How to run Linux/Windows:
+```console
+python3 .\main.py
 ```
-
-#### Windows 7/8/10/11
-
-##### Download Python in https://www.python.org/downloads/ (install in path)
+```console
+py .\main.py
+```
 	
-	
-
-### Clone the repository
-```bash
-git clone https://github.com/M20191/Interective-Console/
-```
-
-### Go to directory
-```bash
-cd Interective-Console
-```
-
-### Download requirements
-```bash
-pip install -r requirements.txt
-```
-
-### Execute any python file.
+### ⚙ Future To-do List:
+- [ ] Subcategory slowdown
+- [ ] Optimize code
+- [x] document better	
